@@ -37,6 +37,13 @@ public class ToDo {
         }
 
     }
+    public int getListSize() {
+        return list.size();
+    }
+
+    public Item getItem(int index) {
+        return list.get(index);
+    }
 
     public static void main(String[] args) {
         ToDo newList = new ToDo();
